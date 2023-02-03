@@ -1,9 +1,59 @@
+<div id="address">
+    {{#each events}}
+    <div>
+        {{address}}
+    </div>
+    {{/each}}
+</div>
+
 <section>
     <h1>Check out events happening today! <span id="todays-date"></span></h1>
 
+   
+
     <div id="map" class="ui container segment"></div>
     <script>
+
         function initMap() {
+        
+        let map;            
+        let coords = [];
+        let addressCoords = [];
+        let geocoder;
+        let addressText = [];
+        let geocodingUrl;
+        let coordArr = [];
+        addressesDivs = document.getElementById("address").children
+        for (let i = 0; i < addressesDivs.length; i++) {
+            let address = addressesDivs[i].innerText
+            addressText.push(address)
+        }
+
+        let lat;
+        let lng;
+
+       async function someFunction () {
+        for (let i=0; i < addressText.length ; i++) {
+            geocodingUrl = `https://api.geoapify.com/v1/geocode/search?text=${encodeURIComponent(addressText[i])}&apiKey=b32ec3c9ebd6459ca1c48a1c4fc736de`;
+            await fetch(geocodingUrl).then(result => result.json())
+                .then(featureCollection => {
+                    coordArr.push(featureCollection.features[0].geometry.coordinates)
+                })
+                .then()
+            console.log(coordArr[i])
+            lat = coordArr[i][0]
+            lng = coordArr[i][1]
+            coordObj = {
+                lat: lat,
+                lng: lng
+            }
+            console.log(coordObj)
+            addMarker(coordObj)
+        }
+       }
+
+       someFunction()
+
             map = new google.maps.Map(document.getElementById('map'), {
                 center: { lat: 41.8781, lng: -87.6298 },
                 zoom: 10
@@ -11,19 +61,21 @@
             addMarker({lat:41.880650,lng:-87.675140});
             addMarker({lat:42.049450,lng:-87.678130});
             
+
             function addMarker(coords) {
                 const marker = new google.maps.Marker({
-                position: coords,
-                map: map
-            });
+                    position: coords,
+                    map: map
+                });
+            }
         }
-        }
-            
-        windows.initMap = initMap;
+
+        
+
+        window.initMap = initMap;
+
     </script>
-    <script async defer
-        src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAUT-2fodGqnRZYiU7JIocjVSidEhRnOIQ&callback=initMap">
-    </script>
+
 
     <div id="carousel-container">
         <div class="carousel">
@@ -32,13 +84,15 @@
             <input type="radio" name="slider" id="item-3">
             <div class="boxes">
                 <label class="box" for="item-1" id="song-1">
-                <img src="https://i.scdn.co/image/ab67616d0000b27358c111a12b5a9afa5292c389" alt="song">
+                    <img src="https://i.scdn.co/image/ab67616d0000b27358c111a12b5a9afa5292c389" alt="song">
                 </label>
                 <label class="box" for="item-2" id="song-2">
-                <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
+                    <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80"
+                        alt="song">
                 </label>
                 <label class="box" for="item-3" id="song-3">
-                <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+                    <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
+                        alt="song">
                 </label>
             </div>
         </div>
@@ -46,14 +100,8 @@
 
 
     {{!-- <div id="map" class="ui container segment">
-        <iframe
-        width="100%"
-        height="450"
-        style="border:0"
-        loading="lazy"
-        allowfullscreen
-        referrerpolicy="no-referrer-when-downgrade"
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDG2GS4Snd66r_9AHSP_Ox3bSi1wzSIlDA
+        <iframe width="100%" height="450" style="border:0" loading="lazy" allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDG2GS4Snd66r_9AHSP_Ox3bSi1wzSIlDA
             &q=Chicago+IL&q=Naperville+IL">
         </iframe>
     </div> --}}
@@ -62,15 +110,16 @@
         <div id="event-cards" class="ui stackable grid container">
             {{#each events}}
             <div class="four wide column">
-            {{> eventcard}}
+                {{> eventcard}}
             </div>
             {{/each}}
         </div>
     </div>
 </section>
 
-{{!-- <script src="./js/Map.js"></script> --}}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUT-2fodGqnRZYiU7JIocjVSidEhRnOIQ&callback=initMap" async
+    defer>
+    </script>
 
-{{!-- AIzaSyAUT-2fodGqnRZYiU7JIocjVSidEhRnOIQ --}}
-
-{{!-- {lat:41.880650,lng:-87.675140}, {lat:42.049450,lng:-87.678130} --}}
+{{!--
+<script src="./js/Map.js"></script> --}}

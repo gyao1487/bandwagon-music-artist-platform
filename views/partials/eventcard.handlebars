@@ -1,16 +1,15 @@
 <a>
 <div class="ui stackable card">
     <div class="image">
-    <img class="genreimage" src="{{event_image}}">
+    <img id="event-image" class="genreimage" src="{{event_image}}">
   </div>
   <div class="content">
     <div class="header"><a href="/events/{{id}}">{{event_name}}</a></div>
     <div class="description">
       <a href="/artist/{{artist_id}}">{{User.name}}</a>
-
     </div>
     <div class="meta">
-      <a>{{address}}</a>
+      <a><p id="address">{{address}}</p></a>
     </div>
     <div class="description">
       {{date}} 

@@ -55,8 +55,12 @@ body {
     height: fit-content;
 }
 
+#event-image {
+  
+}
+
 #map {
-    width: 100%;
+    /* width: 100%; */
     height: 400px;
 }
 
@@ -120,6 +124,10 @@ footer {
     text-align: center;
 }
 
+#event-cards {
+  padding-bottom: 100px;
+}
+
 #event_dimmer {
     display:none;
 }
@@ -135,6 +143,7 @@ footer {
     display: flex;
     justify-content: center;
     margin: 50px;
+    margin-bottom: 100px;
 }
 
 input[type=radio] {
