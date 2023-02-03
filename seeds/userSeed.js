@@ -2,7 +2,7 @@ const { User } = require("../models")
 
 const userData = [
     {
-        "id": 101,
+        "id": 1,
         "username": "Koifsh",
         "email": "koifsh@gmail.com",
         "password": "koifsh",
@@ -13,7 +13,7 @@ const userData = [
         "user_image": "https://i.scdn.co/image/ab67616d00001e02405c4faca55dd18abaee8ad4"
     },
     {
-        "id": 102,
+        "id": 2,
         "username": "ryxn",
         "email": "ryxn@gmail.com",
         "password": "ryxn",
@@ -24,6 +24,7 @@ const userData = [
         "user_image": "https://i.scdn.co/image/ab6761610000e5eb534b8c4bb911b6b17a51df23"
       },
       {
+        "id": 3,
         "username": "birdbennett",
         "email": "birdbennett@gmail.com",
         "password": "birdbennett",
@@ -34,6 +35,7 @@ const userData = [
         "user_image": "https://i1.sndcdn.com/avatars-UNJuY52bsJfwXrsf-O9gkwA-t500x500.jpg"
       },
       {
+        "id": 4,
         "username": "jaywop",
         "email": "jaywop@gmail.com",
         "password": "jaywop",
@@ -44,6 +46,7 @@ const userData = [
         "user_image": "https://images.genius.com/5e3a5f8ae9147b163d47e7e63996b1eb.300x300x1.png"
       },
       {
+        "id": 5,
         "username": "fridaynightplans",
         "email": "fridaynightplans@gmail.com",
         "password": "fridaynightplans",
@@ -54,6 +57,7 @@ const userData = [
         "user_image":"https://yt3.googleusercontent.com/ytc/AL5GRJV2e6MNEMIX6qS5NPvZ6kt-jHSGBV7fNNBhmf7MTg=s900-c-k-c0x00ffffff-no-rj"
       },
       {
+        "id": 6,
         "username": "fivenewold",
         "email": "fivenewold@gmail.com",
         "password": "fivenewold",
@@ -64,6 +68,7 @@ const userData = [
         "user_image":"https://i.discogs.com/eekRKNEglIbqC3yQhFFXhkGwp9XknhTYltemrCNhhNo/rs:fit/g:sm/q:90/h:543/w:543/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ5ODkw/OTYtMTU1NzgyNDc4/My0zODkxLnBuZw.jpeg"
       },
       {
+        "id": 7,
         "username": "Noa Mal",
         "email": "noamal@gmail.com",
         "password": "noamal",
@@ -72,7 +77,16 @@ const userData = [
         "genre_id": 2,
         "user_image":"https://f4.bcbits.com/img/a2254238296_65"
       },
-
+      {
+        "id": 8,
+        "username": "Galantis",
+        "email": "galantis@gmail.com",
+        "password": "galantis",
+        "name": "Galantis",
+        "bio": "Setting a new standard for songwriting in dance music, Galantis is a collaborative project led by Christian Karlsson (aka Bloodshy, one-third of Miike Snow). Galantis has received over 4 billion cumulative worldwide streams, and over 1 billion video views to date, and is one of dance music's most dynamic and in-demand live performers.",
+        "genre_id": 5,
+        "user_image":"https://i1.sndcdn.com/avatars-cTMSNSgElQAqWs9z-k37hRA-t500x500.jpg"
+      }
   ]
 
 const seedUsers = () => User.bulkCreate(userData)
