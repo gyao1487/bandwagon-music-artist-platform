@@ -5,11 +5,13 @@
     box-sizing: border-box;
 }
 
-Html, body 
-{
-    max-width: 100%;
-    max-height: 100%;
- }
+Html, body {
+    height: 100%;
+}
+
+body {
+  position: relative;
+}
 
 h1 {
     text-align: center;
@@ -40,10 +42,6 @@ main.ui.center {
 .genreimage {
     max-width:100%;
     max-height:100%;
-}
-
-html {
-    position: relative;
 }
 
 main {
@@ -115,14 +113,11 @@ body {
 }
 
 footer {
-    right: 0;
-    left: 0;
     bottom: 0;
     width: 100%;
-    position: fixed;
+    position: absolute;
     margin-top: 20px;
     text-align: center;
-    border: 1px solid rgba(34,36,38,.15);
 }
 
 #event_dimmer {
