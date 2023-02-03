@@ -3,22 +3,22 @@ const { Event } = require("../models");
 const eventData = [
   {
     id: 1,
-    event_name: "Fallapalooza",
-    date: "2023-01-23",
+    event_name: "Underground Artist Showcase",
+    date: "2023-04-23",
     time: "5:30 PM",
     address: "633 Clark St, Evanston, IL 60208",
-    content: "Kick off fall with these goofs and their funky music!",
+    content: "'Underground Artists' is an event showcasing the talent of emerging and independent artists who operate outside of mainstream exposure. The event provides a platform for these artists to showcase their unique and diverse works, including music, visual arts, and performance pieces. Attendees can expect to experience a refreshing and dynamic showcase of creativity, as well as the opportunity to discover new artists and perspectives. Whether you're a fan of alternative art forms or simply looking for something new, 'Underground Artists' is a must-see event.",
     artist_id: 101,
     event_image:
-      "https://i.pinimg.com/originals/2a/da/71/2ada717a08fdded71ba96f7b269ebb6d.jpg",
+      "https://www.magneticmag.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTM1MjA2NzQ3MDMwNzQ1MDU4/artists-03_top20png.png",
   },
   {
     id: 2,
     event_name: "Dark at 4pm",
-    date: "2023-01-23",
+    date: "2023-04-23",
     time: "5:30 PM",
     address: "1901 W Madison St, Chicago, IL 60612",
-    content: "Curb your seasonal depression with some fun tunes!",
+    content: "'Dark at 4 PM' is a musical event that promises to deliver a captivating and immersive experience for audiences. Featuring a lineup of artists and performers that specialize in dark and alternative music genres, the event promises to be a thrilling showcase of musical talent. Expect to hear hauntingly beautiful songs, intense beats, and powerful vocals that will leave you feeling exhilarated. Whether you're a fan of darkwave, gothic, industrial, or any other genre that defies the mainstream, 'Dark at 4 PM' is the perfect event for you. So come ready to experience music that is bold, daring, and unapologetically unique.",
     artist_id: 102,
     event_image: "https://images.nightcafe.studio/jobs/TttjxqG60eUq3twdysZE/TttjxqG60eUq3twdysZE--1--mxcb8.jpg?tr=w-1600,c-at_max"
   },

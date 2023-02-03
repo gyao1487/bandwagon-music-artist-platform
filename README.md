@@ -68,7 +68,7 @@ Check out our features from the deployed application:
 
 ## Credits
 
-The collaborators for this project are as follows:
+The collaborators* for this project are as follows:
 
 Grace Yao
 https://github.com/gyao1487
@@ -76,14 +76,10 @@ https://github.com/gyao1487
 Jazmin Tweedle
 https://github.com/jtweedle1
 
-Andrew Phinney
-https://github.com/aphinney0516
-
-Moses Carrisoza
-https://github.com/MoZCa
-
 Cloudinary - Image Hosting 
 https://cloudinary.com/
+
+*Please note that this is a fork of what started as a group project, which had four collaborators. Jazmin and Grace wanted to continue to develop this app and bring it to its full potential.
 
 ## License
 

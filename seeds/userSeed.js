@@ -3,74 +3,74 @@ const { User } = require("../models")
 const userData = [
     {
         "id": 101,
-        "username": "FallGuysOfficial",
-        "email": "ilovepumpkinspice@gmail.com",
-        "password": "sweaterweather",
-        "name": "Fall Guys ",
-        "bio": "Just a bunch of guys making sweet jams (both of the fruit and musical nature). Autumn is our favorite season and all our songs give you that sweater weather feel.",
-        "socials": "@pumpkinbooty",
+        "username": "Koifsh",
+        "email": "koifsh@gmail.com",
+        "password": "koifsh",
+        "name": "Koifsh",
+        "bio": "CHICAGO SSS Find me everywhere @ koifshhh ( ˘ ³˘)❤",
+        "socials": "Instagram: @koifshhh",
         "genre_id": 3,
-        "user_image": "https://i.pinimg.com/originals/1a/d9/79/1ad9791a88e8816a67527a04228cbd6a.jpg"
+        "user_image": "https://i.scdn.co/image/ab67616d00001e02405c4faca55dd18abaee8ad4"
     },
     {
         "id": 102,
-        "username": "SadBoisOfficial",
-        "email": "imsoemo@gmail.com",
-        "password": "gototherapy",
-        "name": "Sad Bois Club",
-        "bio": "We are a group of sad bois and we sing sad songs... You are guaranteed to cry when you hear our music, or your money back.",
-        "socials": "@sadboimusic",
+        "username": "ryxn",
+        "email": "ryxn@gmail.com",
+        "password": "ryxn",
+        "name": "ryxn",
+        "bio": "Up-and-coming artist based in Chicago, IL. Currently growing with 200+ listeners per month.",
+        "socials": "Everwhere: @ryanwithax",
         "genre_id": 3,
-        "user_image": "https://www.pngitem.com/pimgs/m/535-5357433_blue-sad-aesthetics-blueaesthetic-cry-boy-lost-aesthetic.png"
+        "user_image": "https://i.scdn.co/image/ab6761610000e5eb534b8c4bb911b6b17a51df23"
       },
       {
-        "username": "never2old",
-        "email": "never2old@gmail.com",
-        "password": "never2old",
-        "name": "Never 2 Old",
-        "bio": "We are a group of retirees that are finally achieving our dreams of starting the band that we never had time to start! We like to make cover music for all our favorite bands from the good old days.",
-        "socials": "Never2Old on SoundCloud",
+        "username": "birdbennett",
+        "email": "birdbennett@gmail.com",
+        "password": "birdbennett",
+        "name": "Bird Bennett",
+        "bio": "ayo what's up it's bird bennett. im a hiphop artist based outta portland oregon. my music is my absolute everything & my pen is my go to lover. my style is mad unique always inspired by stories of my life. my sound palette is full of many genres, i can get down with anything with the right 808. music is my goto therapy & the only way i feel comfortable expressing myself. i wish 4 the youth to feel inspired by my music & stamp my city on the map. fwm.",
+        "socials": "Instagram: @birdbennett",
         "genre_id": 3,
-        "user_image": "https://static.vecteezy.com/system/resources/previews/002/186/311/original/an-elderly-man-plays-guitar-in-a-park-the-concept-of-active-old-age-day-of-the-elderly-flat-cartoon-illustration-vector.jpg"
+        "user_image": "https://i1.sndcdn.com/avatars-UNJuY52bsJfwXrsf-O9gkwA-t500x500.jpg"
       },
       {
-        "username": "beepboop",
-        "email": "beepboop@gmail.com",
-        "password": "helloworld",
-        "name": "DJ BeepBoop",
-        "bio": "AI and turntable enthusiast. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt praesentium expedita quam quibusdam enim? Nostrum reprehenderit sunt vel voluptates, illo ullam exercitationem, in porro vero quas debitis error repellat labore. " ,
-        "socials": "BeepBoop on Soundcloud",
-        "genre_id": 3,
-        "user_image":"https://art.pixilart.com/thumb/fcddc046d14d651.png"
+        "username": "jaywop",
+        "email": "jaywop@gmail.com",
+        "password": "jaywop",
+        "name": "Jaywop",
+        "bio": "Jaywop is a hip-hop artist from Tacoma, Washington and raised in Phoenix, Arizona. In 2020, Wop packed up all of his belongings and moved to Long Beach, CA to pursue his music career full time. Since then he has released 2 projects, Suede serving as his debut and Corduroy his most recent body of work.  Jaywop is a member of his own collective of artists called Junior Varsity.  And as always: Half ass rapper; wholesome ass n--" ,
+        "socials": "Everything: @jaywop",
+        "genre_id": 1,
+        "user_image": "https://images.genius.com/5e3a5f8ae9147b163d47e7e63996b1eb.300x300x1.png"
       },
       {
-        "username": "test",
-        "email": "beepboop3@gmail.com",
-        "password": "helloworld",
-        "name": "Just some guy",
-        "bio": "I'm a guy and I play guitar" ,
-        "socials": "@GuitarGuy",
+        "username": "fridaynightplans",
+        "email": "fridaynightplans@gmail.com",
+        "password": "fridaynightplans",
+        "name": "Friday Night Plans",
+        "bio": "Friday Night Plans is a musical act led by Japanese vocalist Masumi (born January 1996), who is the group's sole member. Debuting in 2017 as a featured vocalist in a collaboration between StarRo and AmPm, Friday Night Plans solo debuted in 2018, primarily collaborating with drummer and producer Tepppei. Friday Night Plans is best known for covering Mariya Takeuchi's 'Plastic Love' in 2018, and her song 'Honda', which was used in commercials for Honda Vezel cars in Japan in 2019.",
+        "socials": "Everywhere: @fridaynightplans",
         "genre_id": 2,
-        "user_image":"https://i.pinimg.com/originals/f7/27/e7/f727e763c8794ca6f4b686fbb2815865.jpg"
+        "user_image":"https://yt3.googleusercontent.com/ytc/AL5GRJV2e6MNEMIX6qS5NPvZ6kt-jHSGBV7fNNBhmf7MTg=s900-c-k-c0x00ffffff-no-rj"
       },
       {
-        "username": "citypop",
-        "email": "citypop@gmail.com",
-        "password": "citypop",
-        "name": "City Pop Cover Band",
-        "bio": "We cover city pop classics. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt praesentium expedita quam quibusdam enim? Nostrum reprehenderit sunt vel voluptates, illo ullam exercitationem, in porro vero quas debitis error repellat labore." ,
-        "socials": "@CityPopBand",
+        "username": "fivenewold",
+        "email": "fivenewold@gmail.com",
+        "password": "fivenewold",
+        "name": "Five New Old",
+        "bio": "Their sound is colored deeply by R&B, black music, gospel and elements from the 80's. With a wide range of expressive performance, the lead vocal HIROSHI sings in fluent English with the breezing melody which shows style of great pop rock attracting their wide fan base. They have built their solid career as a live band by performing with artists from the local scene and from abroad, going across various genres." ,
+        "socials": "Everywhere: @fivenewold",
         "genre_id": 2,
-        "user_image":"https://images.squarespace-cdn.com/content/v1/5bd7707c11f7847c45b4b9dd/0c12af1d-5f96-4108-b2f4-dd6305673ee5/image-asset+%281%29.png"
+        "user_image":"https://i.discogs.com/eekRKNEglIbqC3yQhFFXhkGwp9XknhTYltemrCNhhNo/rs:fit/g:sm/q:90/h:543/w:543/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ5ODkw/OTYtMTU1NzgyNDc4/My0zODkxLnBuZw.jpeg"
       },
       {
-        "username": "test 2",
-        "email": "beepboop2@gmail.com",
-        "password": "helloworld2",
-        "name": "Test",
-        "bio": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt praesentium expedita quam quibusdam enim? Nostrum reprehenderit sunt vel voluptates, illo ullam exercitationem, in porro vero quas debitis error repellat labore.",
+        "username": "Noa Mal",
+        "email": "noamal@gmail.com",
+        "password": "noamal",
+        "name": "Noa Mal",
+        "bio": "Exclusively For Deranged People.",
         "genre_id": 2,
-        "user_image":"https://64.media.tumblr.com/e0e6405c4ebd302cef7b79e5c758a917/tumblr_pxih4us1g01xbk5hwo2_1280.jpg"
+        "user_image":"https://f4.bcbits.com/img/a2254238296_65"
       },
 
   ]
@@ -78,16 +78,3 @@ const userData = [
 const seedUsers = () => User.bulkCreate(userData)
 
 module.exports = seedUsers
-
-// //Sample json data for Insomnia test:
-
-// {
-// 	"username": "sadgirlmusic",
-//     "email": "sza@gmial.com",
-//     "password": "ijustkilledmyex",
-//     "name": "SZA",
-//     "bio": "I make sexy sad girl songs",
-//     "socials": "SZA on Apple Music",
-//     "genre_id": 3,
-//     "user_image": null
-// }
