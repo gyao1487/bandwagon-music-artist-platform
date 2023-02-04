@@ -1,20 +1,16 @@
 {{!--  anchor tag to link to corresponding genre page --}}
 
-<div class="ui fluid card">
+{{!-- <div class="ui fluid card inverted">
     <a href="/genres/{{ id }}">
-    <div class="image">
-    <img class="genreimage" src="{{ banner }}">
-    </div>
-    <div class="content">
-        <div class="header" id="genre-card-name">{{ name }}</div>
-        <div class="meta">
-            <a>{{address}}
-        </div>
-        <div class="description">
-            {{ date }} {{ content }}
-        </div>
-    </div>
+    <div class="image" id="genre-image"><h1>{{ name }}</h1><img class="genre-image" src="{{ banner }}"></div>
     </a>
+</div> --}}
+
+<a href="/genres/{{ id}}">
+<div class="ui fluid card inverted">
+  <div class="image flexy">
+     <h1 id="genre-name-small">{{name}}</h1>
+    <img src="{{banner}}" class="artist-image">
+  </div>
 </div>
-
-
+</a>

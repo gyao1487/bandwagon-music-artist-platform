@@ -32,7 +32,7 @@ const genreData = [
     banner:"https://images.pexels.com/photos/7135028/pexels-photo-7135028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   {
-    name: "Dance/Alternative",
+    name: "Alt",
     image: "",
     banner:"https://images.pexels.com/photos/7135074/pexels-photo-7135074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
@@ -53,7 +53,7 @@ const genreData = [
     banner:"https://images.pexels.com/photos/7130499/pexels-photo-7130499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   {
-    name: "Folk/Acoustic",
+    name: "Folk",
     image: "",
     banner:"https://images.pexels.com/photos/6985273/pexels-photo-6985273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },

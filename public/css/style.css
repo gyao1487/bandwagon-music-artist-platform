@@ -98,6 +98,7 @@ body {
 .flexy {
     display: flex !important; 
     justify-content: center;
+    align-items: center;
 }
 
 .ui.menu {
@@ -169,8 +170,26 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+#genre-name-small {
+  position: absolute;
+  font-size: 3em;
+  color: white;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.genre-image {
+  
+   height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
 #genre-card-name {
     text-align: center;
+}
+
+#genre-cards {
+  padding-bottom: 100px;
 }
 
 #genre-artists-div {
