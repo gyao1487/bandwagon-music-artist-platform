@@ -118,6 +118,16 @@ body {
     margin-left: 50px;
 }
 
+#artist-cards {
+  padding-bottom: 100px;
+}
+
+.artist-image {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
 #profile-picture {
     width: 500px;
     height: 500px;
@@ -156,6 +166,7 @@ body {
     position: absolute;
     font-size: 100px;
     color: white;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 #genre-card-name {
