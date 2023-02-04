@@ -1,7 +1,8 @@
 {{!-- Can use this as a template for partials functionality --}}
 
-<h1 id="header">All Events</h1>
-<h2>See everything that's happening near you.</h2>
+<section class="fade-in">
+<h1 id="header" id="all-events-header">Everything Near You</h1>
+{{!-- <h2>See everything that's happening near you.</h2> --}}
 <div class="flex">
 <div id="event-cards" class="ui stackable grid container">
     {{#each events}}
@@ -13,4 +14,4 @@
     {{/each}}
 </div>
 </div>
-
+</section>

@@ -4,7 +4,7 @@ const eventData = [
   {
     id: 1,
     event_name: "Underground Artist Showcase",
-    date: "2023-02-03",
+    date: "2023-02-04",
     time: "5:30 PM",
     address: "633 Clark St, Evanston, IL 60208",
     content: "'Underground Artists' is an event showcasing the talent of emerging and independent artists who operate outside of mainstream exposure. The event provides a platform for these artists to showcase their unique and diverse works, including music, visual arts, and performance pieces. Attendees can expect to experience a refreshing and dynamic showcase of creativity, as well as the opportunity to discover new artists and perspectives. Whether you're a fan of alternative art forms or simply looking for something new, 'Underground Artists' is a must-see event.",
@@ -15,7 +15,7 @@ const eventData = [
   {
     id: 2,
     event_name: "Dark at 4pm",
-    date: "2023-02-03",
+    date: "2023-02-05",
     time: "5:30 PM",
     address: "1901 W Madison St, Chicago, IL 60612",
     content: "'Dark at 4 PM' is a musical event that promises to deliver a captivating and immersive experience for audiences. Featuring a lineup of artists and performers that specialize in dark and alternative music genres, the event promises to be a thrilling showcase of musical talent. Expect to hear hauntingly beautiful songs, intense beats, and powerful vocals that will leave you feeling exhilarated. Whether you're a fan of darkwave, gothic, industrial, or any other genre that defies the mainstream, 'Dark at 4 PM' is the perfect event for you. So come ready to experience music that is bold, daring, and unapologetically unique.",
