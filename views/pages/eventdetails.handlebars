@@ -1,4 +1,23 @@
-<section>
+<div class="ui stackable grid">
+  
+    <div id="artist-image-div" class="seven wide column">
+    <img src="{{event.event_image}}" id="profile-picture"></img>
+    </div>
+    
+    <div class="eight wide column">
+        <div><h1 id="artist-name">{{event.event_name}}</h1></div>
+        <div id="artist-description"><h3>{{event.content}}</h3></div>
+    </div>
+   
+    <div id="artist-socials" class="sixteen wide column">
+         <div class="ui raised segment">
+        <h2>Social Media Links</h2>
+        <p id ="artist-socials-content">{{artist.socials}}</p>
+        </div>
+    </div>
+</div>
+
+{{!-- <section>
   <div id="event-image"><img src="{{event.event_image}}"></div>
   <div id="event-name">{{event.event_name}}</div>
     <div id="event-date">{{event.date}}</div>
@@ -7,7 +26,7 @@
   <div id="event-description">{{event.content}}</div>
   <div id="artist-socials">{{event.User.socials}}</div>
   <div id="submit-signup"><button>Sign Up</button></div>
-</section>
+</section> --}}
 
 {{! Insert data from eventRoutes, GET request for individual event
 Elements that can be clicked will have to link to the corresponding routes/pages }}
