@@ -32,20 +32,20 @@
     {{!-- <ul class="right menu"> --}}
       <div class="right menu">
         <li class="item">
-          <p><a href="/">Home</a></p>
+          <p><a href="/">HOME</a></p>
         </li>
-        <li class="item"><a href="/events">Events</a></li>
+        <li class="item"><a href="/events">EVENTS</a></li>
 
         {{! GY: Same goes for profile because we need to use the logged in user's id as well}}
 
-        <li class="item"><a href="/genres">Artist by Genre</a></li>
+        <li class="item"><a href="/genres">GENRES</a></li>
         {{#if loggedIn}}
-        <li class="item"><a href="/dashboard">Dashboard</a></li>
-        <li class="item"><a href="/profile">Profile</a></li>
-        <li class="item"><a href="/logout">Logout</a></li>
+        <li class="item"><a href="/dashboard">DASHBOARD</a></li>
+        <li class="item"><a href="/profile">PROFILE</a></li>
+        <li class="item"><a href="/logout">LOGOUT</a></li>
         {{else}}
-        <li class="item"><a href="/login">Log In</a></li>
-        <li class="item"><a href="/signup">Sign Up</a></li>
+        <li class="item"><a href="/login">LOGIN</a></li>
+        <li class="item"><a href="/signup">SIGN UP </a></li>
         {{/if}}
 
       </div>
