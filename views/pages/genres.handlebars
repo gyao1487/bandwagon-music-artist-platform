@@ -1,12 +1,13 @@
 <section class="fade-in">
  
    <h1 id="genre-header" class="header">Discover new artists!</h1>
-<div id="genre-cards" class="ui four stackable cards grid">
+<div class="flexy">
+<div id="genre-cards" class="ui three column stackable grid" style="width: 90vw;">
     {{#each genres}}
-        <div class="eight wide column flexy">
+        <div class="column">
         {{> genrecard}}
         </div>
     {{/each}}
 </div>
-
+</div>
 </section>
