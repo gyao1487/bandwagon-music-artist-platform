@@ -31,7 +31,7 @@ We learned that separation of tasks for project members is crucial in full-stack
 
 ## Installation
 
-No installation required. This app is hosted at this URL: https://bandwagon-official.herokuapp.com/ 
+No installation required. This app is hosted at this URL: https://bandwagon-platform.herokuapp.com/
 
 To access and manually configure with the code if you please:
 1. `git clone` the repo to your local machine so that you have the project files
